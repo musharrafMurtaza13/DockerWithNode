@@ -17,3 +17,4 @@ app.listen(4000, () => {
 
 
 //"D:/Learning/nodewithdocker/DockerWithNode"
+//HEALTHCHECK --interval=30s --timeout=5s CMD curl -f http://localhost:4000/ || exit 1

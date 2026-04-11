@@ -5,5 +5,4 @@ COPY package.json ./
 RUN npm install
 COPY . .
 EXPOSE 4000
-HEALTHCHECK --interval=30s --timeout=5s CMD curl -f http://localhost:4000/ || exit 1
 CMD ["npm", "run", "dev"]
